@@ -220,7 +220,7 @@ const ModernNailsLanding = () => {
                       alt="hero"
                       height={500}
                       width={500}
-                      src={'/hero.webp'}
+                      src={'/hand.webp'}
                     />
                   </div>
                 </div>
