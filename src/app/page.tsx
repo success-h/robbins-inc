@@ -46,7 +46,7 @@ const Home = () => {
               </h1>
             </div>
             <div className="hidden md:flex space-x-8">
-              {['Услуги', 'Цены', 'О нас', 'Контакты'].map((item) => (
+              {['Services', 'Prices', 'About Us', 'Contact'].map((item) => (
                 <a
                   key={item}
                   href="#"
@@ -83,7 +83,7 @@ const Home = () => {
             onClick={scrollToServices}
             className="bg-transparent border-2 border-white px-8 py-3 text-white hover:bg-white hover:text-gray-900 transition-all duration-300 transform hover:scale-105"
           >
-            Записаться
+            Book Now
           </button>
         </div>
 
@@ -100,10 +100,10 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:mb-16">
             {[
-              { title: 'Маникюр, педикюр', active: true },
-              { title: 'Визаж', active: false },
-              { title: 'Парикмахерские услуги', active: false },
-              { title: 'Массаж', active: false },
+              { title: 'Manicure, Pedicure', active: true },
+              { title: 'Makeup', active: false },
+              { title: 'Hair Services', active: false },
+              { title: 'Massage', active: false },
             ].map((service, index) => (
               <div
                 key={index}
@@ -121,24 +121,22 @@ const Home = () => {
           <div className="grid md:h-[800px] lg:grid-cols-3 md:gap-12 items-center">
             <div className="col-span-1 space-y-6">
               <p className="text-gray-600 text-lg leading-relaxed">
-                Наши ноготки требуют особого ухода, ведь от их внешнего вида и
-                состояния зависит повседневный комфорт, уверенность в себе,
-                настроение, часто отношение к себе и общее восприятие.
+                Our nails require special care, as their appearance and
+                condition affect daily comfort, self-confidence, mood, often
+                self-perception and overall well-being.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                Мы предлагаем полный спектр услуг по уходу за ногтями, используя
-                только качественные материалы и современное оборудование.
+                We offer a full range of nail care services, using only quality
+                materials and modern equipment.
               </p>
               <div className="flex space-x-4">
                 <div className="bg-white p-4 rounded-lg shadow-md flex-1 text-center">
-                  <h4 className="font-semibold text-gray-900 mb-2">Маникюр</h4>
-                  <p className="text-gray-600 text-sm">
-                    Классический и аппаратный
-                  </p>
+                  <h4 className="font-semibold text-gray-900 mb-2">Manicure</h4>
+                  <p className="text-gray-600 text-sm">Classic and machine</p>
                 </div>
                 <div className="bg-white p-4 rounded-lg shadow-md flex-1 text-center">
-                  <h4 className="font-semibold text-gray-900 mb-2">Покрытие</h4>
-                  <p className="text-gray-600 text-sm">Гель-лак, дизайн</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">Polish</h4>
+                  <p className="text-gray-600 text-sm">Gel polish, design</p>
                 </div>
               </div>
             </div>
@@ -162,28 +160,28 @@ const Home = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div>
               <h2 className="text-3xl font-light text-gray-900 mb-8">
-                Свяжитесь с нами
+                Contact Us
               </h2>
               <div className="space-y-6">
                 <div className="flex items-center space-x-4">
                   <Phone className="w-6 h-6 text-pink-500" />
-                  <span className="text-gray-600">+7 (XXX) XXX-XX-XX</span>
+                  <span className="text-gray-600">+1 (XXX) XXX-XXXX</span>
                 </div>
                 <div className="flex items-center space-x-4">
                   <Mail className="w-6 h-6 text-pink-500" />
-                  <span className="text-gray-600">info@barb-salon.ru</span>
+                  <span className="text-gray-600">info@barb-salon.com</span>
                 </div>
                 <div className="flex items-center space-x-4">
                   <MapPin className="w-6 h-6 text-pink-500" />
                   <span className="text-gray-600">
-                    Москва, ул. Примерная, д. 123
+                    New York, Sample Street, 123
                   </span>
                 </div>
               </div>
 
               <div className="mt-8">
                 <h3 className="text-lg font-medium text-gray-900 mb-4">
-                  Подпишись
+                  Follow Us
                 </h3>
                 <div className="flex space-x-4">
                   <Facebook className="w-8 h-8 text-gray-400 hover:text-pink-500 cursor-pointer transition-colors" />
@@ -195,38 +193,38 @@ const Home = () => {
 
             <div className="bg-gray-50 p-8 rounded-lg">
               <h3 className="text-xl font-medium text-gray-900 mb-6">
-                Записаться на прием
+                Book an Appointment
               </h3>
               <div className="space-y-4">
                 <div>
                   <input
                     type="text"
-                    placeholder="Ваше имя"
+                    placeholder="Your name"
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-500 focus:border-transparent"
                   />
                 </div>
                 <div>
                   <input
                     type="tel"
-                    placeholder="Телефон"
+                    placeholder="Phone number"
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-500 focus:border-transparent"
                   />
                 </div>
                 <div>
                   <select className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-500 focus:border-transparent">
-                    <option>Выберите услугу</option>
-                    <option>Маникюр</option>
-                    <option>Педикюр</option>
-                    <option>Визаж</option>
-                    <option>Парикмахерские услуги</option>
+                    <option>Choose service</option>
+                    <option>Manicure</option>
+                    <option>Pedicure</option>
+                    <option>Makeup</option>
+                    <option>Hair Services</option>
                   </select>
                 </div>
                 <button
                   type="button"
                   className="w-full bg-pink-500 text-white py-3 rounded-lg hover:bg-pink-600 transition-colors duration-300"
-                  onClick={() => alert('Форма отправлена!')}
+                  onClick={() => alert('Form submitted!')}
                 >
-                  Записаться
+                  Book Now
                 </button>
               </div>
             </div>
@@ -239,7 +237,7 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h3 className="text-2xl font-bold mb-2">BarB Beauty Salon</h3>
-            <p className="text-gray-400">Мы создаем для современных женщин</p>
+            <p className="text-gray-400">We create for modern women</p>
             <p className="text-gray-400 mt-2">bark.studio@gmail.com</p>
           </div>
         </div>
