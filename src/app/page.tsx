@@ -349,7 +349,7 @@ const ModernNailsLanding = () => {
                   ))}
                 </div>
                 <p className="text-gray-600 mb-4 italic">
-                  "{testimonial.text}"
+                  &quot;{testimonial.text}&quot;
                 </p>
                 <div className="font-semibold text-gray-800">
                   {testimonial.name}
