@@ -24,7 +24,7 @@ export default function Header({ dict }: SectionProps) {
     }
 
     const newPath = segments.join('/') || '/';
-    //@ts-ignore
+    //@ts-expect-error error
     setLanguage(selectedLang);
     router.push(newPath);
   };

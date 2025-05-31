@@ -22,8 +22,8 @@ export default function Footer({ dict: { footer } }: SectionProps) {
           <div>
             <h4 className="font-medium mb-4">{footer.company.title}</h4>
             <ul className="space-y-2 text-gray-400">
-              {footer.company.navigation.map((item) => (
-                <li>
+              {footer.company.navigation.map((item, idx) => (
+                <li key={idx}>
                   <Link href={item.link}>{item.name}</Link>
                 </li>
               ))}
@@ -32,8 +32,8 @@ export default function Footer({ dict: { footer } }: SectionProps) {
           <div>
             <h4 className="font-medium mb-4">{footer.connect.title}</h4>
             <ul className="space-y-2 text-gray-400">
-              {footer.connect.navigation.map((item) => (
-                <li>
+              {footer.connect.navigation.map((item, key) => (
+                <li key={key}>
                   <Link href={item.link}>{item.name}</Link>
                 </li>
               ))}

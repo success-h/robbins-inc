@@ -12,8 +12,11 @@ export default function Services({ dict }: SectionProps) {
           {dict.service.description}
         </p>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          {dict.service.services.map((item) => (
-            <div className="text-center py-4 border-b-2 border-gray-200">
+          {dict.service.services.map((item, idx) => (
+            <div
+              key={idx}
+              className="text-center py-4 border-b-2 border-gray-200"
+            >
               <Image
                 src={item.image}
                 height={400}

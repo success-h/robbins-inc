@@ -1,5 +1,4 @@
 import { SectionProps } from '@/app/[lang]/dictionaries';
-import { Scroll, ScrollIcon, ScrollText } from 'lucide-react';
 import Image from 'next/image';
 
 export default function Hero({ dict }: SectionProps) {

@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import ClientReviews from './ClientReviews';
 import { SectionProps } from '@/app/[lang]/dictionaries';
 
 export default function AromaTherapy({ dict }: SectionProps) {
