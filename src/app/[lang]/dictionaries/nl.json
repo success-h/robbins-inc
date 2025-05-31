@@ -1,0 +1,140 @@
+{
+  "navigation": [
+    {
+      "name": "Over Ons",
+      "link": "#about"
+    },
+    {
+      "name": "Diensten",
+      "link": "#services"
+    },
+    {
+      "name": "Contacteer Ons",
+      "link": "#contact"
+    }
+  ],
+  "hero": {
+    "title": "Zorg voor",
+    "sub_title": "Je Lichaam",
+    "scroll": "Scroll"
+  },
+  "about": {
+    "title": "Welkom bij Anny Spa",
+    "desc": "Iedereen is op zoek naar plekken om te ontspannen en nieuwe energie op te doen. In ons wellnesscentrum komen stilte, energie, schoonheid en vitaliteit samen. De behandelingen die wij aanbieden verfrissen zowel je lichaam als je geest. We verwelkomen je graag en bevelen onze faciliteiten en diensten aan."
+  },
+  "service": {
+    "title": "Diensten",
+    "description": "Ontspanning van lichaam en geest waarbij tijd niet bestaat",
+    "services": [
+      {
+        "title": "Hydrotherapie",
+        "image": "/hydro.png"
+      },
+      {
+        "title": "Saunaruimtes",
+        "image": "/sauna.png"
+      },
+      {
+        "title": "Massage",
+        "image": "/massage.png"
+      },
+      {
+        "title": "Reflexologie",
+        "image": "/reflex.png"
+      }
+    ]
+  },
+  "aroma": {
+    "title": "Aromatherapie",
+    "desc": "Geef jezelf de ultieme spa-ervaring thuis met een therapievorm die zachte druk gebruikt op specifieke punten van je voeten (en mogelijk ook je handen of oren) om je beter te laten voelen. De theorie is dat dit stress vermindert, waardoor je lichaam beter functioneert.",
+    "learn": "Lees meer"
+  },
+  "reviews": {
+    "title": "Beoordelingen van onze klanten",
+    "reviews": [
+      {
+        "id": 1,
+        "title": "Geweldige plek!",
+        "review": "De service was onberispelijk en het personeel was het beste dat we ooit hebben ontmoet. Dank jullie wel.",
+        "category": "Geluidskamers",
+        "profileImage": "/portrait.png"
+      },
+      {
+        "id": 2,
+        "title": "BESTE massage",
+        "review": "De BESTE massage die ik ooit heb gehad. Elke keer dat ik bel, komt Rela Spa naar mijn privélocatie voor lichaamswerk!",
+        "category": "Massages",
+        "profileImage": "/portrait.png"
+      },
+      {
+        "id": 3,
+        "title": "Heerlijke vakantie",
+        "review": "Dank jullie wel! We hebben een heerlijke vakantie gehad in jullie hemelse resort. Jullie zijn kostbaar.",
+        "category": "Reflexologie",
+        "profileImage": "/portrait.png"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contacteer Ons",
+    "contact": {
+      "visit": "Bezoek Ons",
+      "add1": "123 Wellnessstraat",
+      "add2": "Spa Stad, SC 12345",
+      "get_intouch": "Neem Contact Op",
+      "phone": "Telefoon: (123) 456-7890",
+      "email": "E-mail: info@annyspa.com"
+    },
+    "location": "We zijn actief in heel Amerika."
+  },
+  "footer": {
+    "title": "Anny Spa",
+    "desc": "Zorg voor je lichaam en ziel",
+    "services": {
+      "title": "Diensten",
+      "hydro": "Hydrotherapie",
+      "sauna": "Saunaruimtes",
+      "massage": "Massages",
+      "reflex": "Reflexologie"
+    },
+    "company": {
+      "title": "Bedrijf",
+      "navigation": [
+        {
+          "name": "Over Ons",
+          "link": "#about"
+        },
+        {
+          "name": "Diensten",
+          "link": "#services"
+        },
+        {
+          "name": "Contacteer Ons",
+          "link": "#contact"
+        }
+      ]
+    },
+    "connect": {
+      "title": "Verbind",
+      "navigation": [
+        {
+          "facebook": "Facebook",
+          "link": "www.facebook.com"
+        },
+        {
+          "name": "Instagram",
+          "link": "www.instagram.com"
+        },
+        {
+          "name": "X",
+          "link": "www.x.com"
+        },
+        {
+          "name": "YouTube",
+          "link": "www.youtube.com"
+        }
+      ]
+    },
+    "all_rights": "Anny Spa. Alle rechten voorbehouden."
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "navigation": [
+    {
+      "name": "About Us",
+      "link": "#about"
+    },
+
+    {
+      "name": "Services",
+      "link": "#services"
+    },
+    {
+      "name": "Contact Us",
+      "link": "#contact"
+    }
+  ],
+  "hero": {
+    "title": "Care of",
+    "sub_title": "Your Body",
+    "scroll": "Scroll"
+  },
+  "about": {
+    "title": "Welcome to Anny Spa",
+    "desc": "Everybody is looking for places where to relax and get more energy.In our wellness center silence, energy, beauty and vitality meet. The treatments we offer will refresh both your body and soul. We'll be glad to welcome you and recommend our facilities and services."
+  },
+  "service": {
+    "title": "Services",
+    "description": "Relaxation of bodu and mind in which time does not exist",
+    "services": [
+      {
+        "title": "Hydro Therapy",
+        "image": "/hydro.png"
+      },
+      {
+        "title": "Sauna Rooms",
+        "image": "/sauna.png"
+      },
+      {
+        "title": "Massage",
+        "image": "/massage.png"
+      },
+      {
+        "title": "Reflexology",
+        "image": "/reflex.png"
+      }
+    ]
+  },
+  "aroma": {
+    "title": "Aroma Therapy",
+    "desc": "Give yourself the ultimate home spa experience with a type of therapy that uses gentle pressure on specific points along your feet (and possibly on your hands or ears as well) to help you feel better. The theory is that this eases stress, and that helps your body work better.",
+    "learn": "Learn more"
+  },
+  "reviews": {
+    "title": "Review from our clients",
+    "reviews": [
+      {
+        "id": 1,
+        "title": "Amazing place!",
+        "review": "The service was impeccable and the staff was the best we've met. Thank you from the bottom.",
+        "category": "Sound Rooms",
+        "profileImage": "/portrait.png"
+      },
+      {
+        "id": 2,
+        "title": "BEST massage",
+        "review": "The BEST massage I have ever had, every time I call Rela Spa to my private venue for body work!",
+        "category": "Messages",
+        "profileImage": "/portrait.png"
+      },
+      {
+        "id": 3,
+        "title": "Wonderful vacation",
+        "review": "Thank you! We have had a wonderful vacation at your heavenly resort. You are precious.",
+        "category": "Reflexology",
+        "profileImage": "/portrait.png"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact Us",
+    "contact": {
+      "visit": "Visit Us",
+      "add1": "123 Wellness Street",
+      "add2": "Spa City, SC 12345",
+      "get_intouch": "Get In Touch",
+      "phone": "Phone: (123) 456-7890",
+      "email": "Email: info@annyspa.com"
+    },
+    "location": "We operate across the Americas."
+  },
+  "footer": {
+    "title": "Anny Spa",
+    "desc": "Care for your body and soul",
+    "services": {
+      "title": "Services",
+      "hydro": "Hydro Therapy",
+      "sauna": "Sauna Rooms",
+      "massage": "Massages",
+      "reflex": "Reflexology"
+    },
+    "company": {
+      "title": "Company",
+      "navigation": [
+        {
+          "name": "About Us",
+          "link": "#about"
+        },
+
+        {
+          "name": "Services",
+          "link": "#services"
+        },
+        {
+          "name": "Contact Us",
+          "link": "#contact"
+        }
+      ]
+    },
+    "connect": {
+      "title": "Connect",
+      "navigation": [
+        {
+          "facebook": "Facebook",
+          "link": "www.facebook.com"
+        },
+
+        {
+          "name": "Instagram",
+          "link": "www.instagram.com"
+        },
+        {
+          "name": "X",
+          "link": "www.x.com"
+        },
+        {
+          "name": "Youtube",
+          "link": "www.youtube.com"
+        }
+      ]
+    },
+    "all_rights": "Anny Spa. All rights reserved."
+  }
+}

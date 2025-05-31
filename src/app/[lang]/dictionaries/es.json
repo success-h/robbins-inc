@@ -1,0 +1,140 @@
+{
+  "navigation": [
+    {
+      "name": "Sobre Nosotros",
+      "link": "#about"
+    },
+    {
+      "name": "Servicios",
+      "link": "#services"
+    },
+    {
+      "name": "Contáctanos",
+      "link": "#contact"
+    }
+  ],
+  "hero": {
+    "title": "Cuidado de",
+    "sub_title": "Tu Cuerpo",
+    "scroll": "Desliza"
+  },
+  "about": {
+    "title": "Bienvenido a Anny Spa",
+    "desc": "Todos buscan lugares donde relajarse y recargar energías. En nuestro centro de bienestar se encuentran el silencio, la energía, la belleza y la vitalidad. Los tratamientos que ofrecemos renovarán tanto tu cuerpo como tu alma. Estaremos encantados de recibirte y recomendarte nuestras instalaciones y servicios."
+  },
+  "service": {
+    "title": "Servicios",
+    "description": "Relajación del cuerpo y la mente en la que el tiempo no existe",
+    "services": [
+      {
+        "title": "Hidroterapia",
+        "image": "/hydro.png"
+      },
+      {
+        "title": "Salas de Sauna",
+        "image": "/sauna.png"
+      },
+      {
+        "title": "Masaje",
+        "image": "/massage.png"
+      },
+      {
+        "title": "Reflexología",
+        "image": "/reflex.png"
+      }
+    ]
+  },
+  "aroma": {
+    "title": "Aromaterapia",
+    "desc": "Date la mejor experiencia de spa en casa con un tipo de terapia que utiliza presión suave en puntos específicos de los pies (y posiblemente también en las manos o las orejas) para ayudarte a sentirte mejor. La teoría es que esto alivia el estrés, lo que ayuda a que tu cuerpo funcione mejor.",
+    "learn": "Aprende más"
+  },
+  "reviews": {
+    "title": "Opiniones de nuestros clientes",
+    "reviews": [
+      {
+        "id": 1,
+        "title": "¡Lugar increíble!",
+        "review": "El servicio fue impecable y el personal el mejor que hemos conocido. Gracias de corazón.",
+        "category": "Salas de Sonido",
+        "profileImage": "/portrait.png"
+      },
+      {
+        "id": 2,
+        "title": "El MEJOR masaje",
+        "review": "¡El MEJOR masaje que he tenido! Siempre llamo a Rela Spa a mi lugar privado para masajes corporales.",
+        "category": "Masajes",
+        "profileImage": "/portrait.png"
+      },
+      {
+        "id": 3,
+        "title": "Vacaciones maravillosas",
+        "review": "¡Gracias! Hemos tenido unas vacaciones maravillosas en su paradisíaco resort. Son invaluables.",
+        "category": "Reflexología",
+        "profileImage": "/portrait.png"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "contact": {
+      "visit": "Visítanos",
+      "add1": "123 Calle Bienestar",
+      "add2": "Ciudad Spa, SC 12345",
+      "get_intouch": "Ponte en contacto",
+      "phone": "Teléfono: (123) 456-7890",
+      "email": "Correo: info@annyspa.com"
+    },
+    "location": "Operamos en toda América."
+  },
+  "footer": {
+    "title": "Anny Spa",
+    "desc": "Cuida tu cuerpo y alma",
+    "services": {
+      "title": "Servicios",
+      "hydro": "Hidroterapia",
+      "sauna": "Salas de Sauna",
+      "massage": "Masajes",
+      "reflex": "Reflexología"
+    },
+    "company": {
+      "title": "Compañía",
+      "navigation": [
+        {
+          "name": "Sobre Nosotros",
+          "link": "#about"
+        },
+        {
+          "name": "Servicios",
+          "link": "#services"
+        },
+        {
+          "name": "Contáctanos",
+          "link": "#contact"
+        }
+      ]
+    },
+    "connect": {
+      "title": "Conéctate",
+      "navigation": [
+        {
+          "facebook": "Facebook",
+          "link": "www.facebook.com"
+        },
+        {
+          "name": "Instagram",
+          "link": "www.instagram.com"
+        },
+        {
+          "name": "X",
+          "link": "www.x.com"
+        },
+        {
+          "name": "Youtube",
+          "link": "www.youtube.com"
+        }
+      ]
+    },
+    "all_rights": "Anny Spa. Todos los derechos reservados."
+  }
+}
