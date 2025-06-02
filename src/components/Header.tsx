@@ -10,13 +10,11 @@ import {
   DialogClose,
   DialogContent,
   DialogDescription,
-  DialogFooter,
   DialogHeader,
   DialogTitle,
 } from '@/components/ui/dialog';
 import { Button } from './ui/button';
 import { Check, ChevronDown } from 'lucide-react';
-import { ES, NL, US } from 'country-flag-icons/string/3x2';
 
 const SUPPORTED_LANGUAGES = ['en', 'es', 'nl'];
 
@@ -46,21 +44,6 @@ export default function Header({ dict }: SectionProps) {
     const newPath = segments.join('/') || '/';
     localStorage.setItem('preferredLanguage', lang);
     //@ts-expect-error error
-    setLanguage(lang);
-    router.push(newPath);
-  };
-
-  const handleLanguageSelect = (e: any) => {
-    const lang = e.target.value;
-    const segments = pathname.split('/');
-
-    if (SUPPORTED_LANGUAGES.includes(segments[1])) {
-      segments[1] = lang;
-    } else {
-      segments.splice(1, 0, lang);
-    }
-    const newPath = segments.join('/') || '/';
-    localStorage.setItem('preferredLanguage', lang);
     setLanguage(lang);
     router.push(newPath);
   };
@@ -162,6 +145,7 @@ export default function Header({ dict }: SectionProps) {
 
           <Button variant={'ghost'} onClick={() => setShowModal(true)}>
             <div className="flex items-center text-lg uppercase border border-white px-4 rounded-sm bg-transparent">
+              {language === 'en' ? '🇺🇸' : language === 'es' ? '🇪🇸' : '🇳🇱'}{' '}
               {language}
               <ChevronDown />{' '}
             </div>
@@ -212,6 +196,7 @@ export default function Header({ dict }: SectionProps) {
 
           <Button variant={'ghost'} onClick={() => setShowModal(true)}>
             <div className="flex items-center text-lg uppercase border border-white px-4 rounded-sm bg-transparent">
+              {language === 'en' ? '🇺🇸' : language === 'es' ? '🇪🇸' : '🇳🇱'}{' '}
               {language}
               <ChevronDown />{' '}
             </div>
