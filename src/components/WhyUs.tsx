@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function WhyUs({ dict }: SectionProps) {
   return (
-    <section className="mt-20">
+    <section className="mt-20 p-5">
       <div className="max-w-6xl border-t-2 border-white mx-auto">
         <h3 className="text-3xl md:text-5xl my-10">{dict.whyus.title}</h3>
         <div className="mb-10 grid sm:grid-cols-2 md:grid-cols-3 gap-5 md:gap-8">

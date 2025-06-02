@@ -15,6 +15,8 @@ import {
   DialogTitle,
 } from '@/components/ui/dialog';
 import { Button } from './ui/button';
+import { Check, ChevronDown } from 'lucide-react';
+import { ES, NL, US } from 'country-flag-icons/string/3x2';
 
 const SUPPORTED_LANGUAGES = ['en', 'es', 'nl'];
 
@@ -32,20 +34,34 @@ export default function Header({ dict }: SectionProps) {
   const [showModal, setShowModal] = useState(false);
 
   // Save language to localStorage & navigate
-  const handleLanguageChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    const selectedLang = e.target.value;
+  const handleLanguageChange = (lang: string) => {
     const segments = pathname.split('/');
 
     if (SUPPORTED_LANGUAGES.includes(segments[1])) {
-      segments[1] = selectedLang;
+      segments[1] = lang;
     } else {
-      segments.splice(1, 0, selectedLang);
+      segments.splice(1, 0, lang);
     }
 
     const newPath = segments.join('/') || '/';
-    localStorage.setItem('preferredLanguage', selectedLang);
+    localStorage.setItem('preferredLanguage', lang);
     //@ts-expect-error error
-    setLanguage(selectedLang);
+    setLanguage(lang);
+    router.push(newPath);
+  };
+
+  const handleLanguageSelect = (e: any) => {
+    const lang = e.target.value;
+    const segments = pathname.split('/');
+
+    if (SUPPORTED_LANGUAGES.includes(segments[1])) {
+      segments[1] = lang;
+    } else {
+      segments.splice(1, 0, lang);
+    }
+    const newPath = segments.join('/') || '/';
+    localStorage.setItem('preferredLanguage', lang);
+    setLanguage(lang);
     router.push(newPath);
   };
 
@@ -73,28 +89,55 @@ export default function Header({ dict }: SectionProps) {
   return (
     <header className="border-b backdrop-blur-2xl shadow-sm py-4 px-6 z-50 fixed right-0 left-0">
       <Dialog open={showModal} onOpenChange={setShowModal}>
-        <DialogContent className="sm:max-w-[425px]">
+        <DialogContent className="sm:max-w-[425px] bg-white">
           <DialogHeader>
-            <DialogTitle>Select Language</DialogTitle>
+            <DialogTitle className="text-black text-3xl">
+              Select Language
+            </DialogTitle>
             <DialogDescription>
               Please select your preferred language
             </DialogDescription>
-            <select
-              value={language}
-              onChange={handleLanguageChange}
-              className="mt-2 w-full px-2 py-1 border rounded text-gray-700"
-            >
-              <option value="en">English</option>
-              <option value="es">Español</option>
-              <option value="nl">Nederlands</option>
-            </select>
+            <div className="mx-auto my-4 flex gap-4">
+              <DialogClose>
+                <Button
+                  onClick={() => handleLanguageChange('en')}
+                  className={`${
+                    language === 'en' ? 'bg-emerald-500 px-8 py-2' : 'bg-black'
+                  }`}
+                  variant="outline"
+                >
+                  🇺🇸 English {language === 'en' && <Check />}
+                </Button>
+              </DialogClose>
+              <DialogClose>
+                <Button
+                  onClick={() => handleLanguageChange('es')}
+                  className={`${
+                    language === 'es'
+                      ? 'bg-emerald-500 px-8 py-2'
+                      : 'bg-white text-black'
+                  }`}
+                  variant="outline"
+                >
+                  Spainish 🇪🇸{language === 'es' && <Check />}
+                </Button>
+              </DialogClose>
+              <DialogClose>
+                <Button
+                  onClick={() => handleLanguageChange('nl')}
+                  className={`${
+                    language === 'nl'
+                      ? 'bg-emerald-500 px-8 py-2'
+                      : 'bg-white text-black'
+                  }`}
+                  variant="outline"
+                >
+                  🇳🇱 Dutch {language === 'nl' && <Check />}
+                </Button>
+              </DialogClose>
+            </div>
+            s
           </DialogHeader>
-
-          <DialogFooter>
-            <DialogClose asChild>
-              <Button variant="outline">Cancel</Button>
-            </DialogClose>
-          </DialogFooter>
         </DialogContent>
       </Dialog>
 
@@ -117,15 +160,12 @@ export default function Header({ dict }: SectionProps) {
             </Link>
           ))}
 
-          <select
-            value={language}
-            onChange={handleLanguageChange}
-            className="ml-4 px-2 py-1 border rounded"
-          >
-            <option value="en">English</option>
-            <option value="es">Español</option>
-            <option value="nl">Nederlands</option>
-          </select>
+          <Button variant={'ghost'} onClick={() => setShowModal(true)}>
+            <div className="flex items-center text-lg uppercase border border-white px-4 rounded-sm bg-transparent">
+              {language}
+              <ChevronDown />{' '}
+            </div>
+          </Button>
         </nav>
 
         <button
@@ -159,7 +199,7 @@ export default function Header({ dict }: SectionProps) {
       </div>
 
       {mobileMenuOpen && (
-        <div className="md:hidden bg-white py-4 px-6 space-y-4">
+        <div className="md:hidden bg-black py-4 px-6 space-y-4">
           {dict.navigation.map((item) => (
             <Link
               key={item.link}
@@ -170,15 +210,12 @@ export default function Header({ dict }: SectionProps) {
             </Link>
           ))}
 
-          <select
-            value={language}
-            onChange={handleLanguageChange}
-            className="mt-2 w-full px-2 py-1 border rounded text-gray-700"
-          >
-            <option value="en">English</option>
-            <option value="es">Español</option>
-            <option value="nl">Nederlands</option>
-          </select>
+          <Button variant={'ghost'} onClick={() => setShowModal(true)}>
+            <div className="flex items-center text-lg uppercase border border-white px-4 rounded-sm bg-transparent">
+              {language}
+              <ChevronDown />{' '}
+            </div>
+          </Button>
         </div>
       )}
     </header>

@@ -4,10 +4,10 @@ import { SectionProps } from '@/app/[lang]/dictionaries';
 export default function AromaTherapy({ dict }: SectionProps) {
   return (
     <section className="py-16 px-6">
-      <div className="   max-w-6xl mx-auto">
+      <div className="max-w-5xl mx-auto">
         <div className="gap-10 grid md:grid-cols-3 items-center">
-          <div className="col-span-1 max-md:place-items-center max-md:mt-10">
-            <h2 className="text-3xl font-bold font-mono mb-6">
+          <div className="col-span-1 max-md:place-items-start max-md:mt-10">
+            <h2 className="text-xl font-bold font-mono mb-6">
               {dict.aroma.title}
             </h2>
             <Image
@@ -18,14 +18,16 @@ export default function AromaTherapy({ dict }: SectionProps) {
               className="bg-center"
             />
           </div>
-          <div className="col-span-2 max-md:place-items-center">
+          <div className="col-span-2 max-md:place-items-start">
             <h2 className="text-3xl font-bold font-mono mb-2">
               {dict.aroma.name}
             </h2>
             <div className="text-lg text-emerald-400 mb-6">
               {dict.aroma.subtitle}
             </div>
-            <p className="mb-6 leading-relaxed">{dict.aroma.desc}</p>
+            <p className="mb-6 leading-relaxed max-md:text-sm">
+              {dict.aroma.desc}
+            </p>
             <a href="#" className="text-blue-500 hover:underline font-medium">
               {dict.aroma.gallery} →
             </a>

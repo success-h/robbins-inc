@@ -10,7 +10,7 @@ export default function Services({ dict }: SectionProps) {
         <p className="text-gray-600 mb-6 leading-relaxed">
           {dict.service.description}
         </p>
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+        <div className="grid sm:grid-cols-2 md:grid-cols-5 gap-4">
           {dict.service.services.map((item, idx) => (
             <div
               key={idx}
