@@ -1,9 +1,9 @@
 import { SectionProps } from '@/app/[lang]/dictionaries';
 import Link from 'next/link';
 
-export default function Footer({ dict: { footer } }: SectionProps) {
+export default function Footer({ dict: { footer, service } }: SectionProps) {
   return (
-    <footer className="bg-gray-800 text-white py-12 px-6">
+    <footer className="bg-black text-white py-12 px-6">
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
@@ -13,10 +13,11 @@ export default function Footer({ dict: { footer } }: SectionProps) {
           <div>
             <h4 className="font-medium mb-4">{footer.services.title}</h4>
             <ul className="space-y-2 text-gray-400">
-              <li>{footer.services.hydro}</li>
-              <li>{footer.services.sauna}</li>
-              <li>{footer.services.massage}</li>
-              <li>{footer.services.reflex}</li>
+              <>
+                {service.services.map((item) => (
+                  <li key={item.title}>{item.title}</li>
+                ))}
+              </>
             </ul>
           </div>
           <div>

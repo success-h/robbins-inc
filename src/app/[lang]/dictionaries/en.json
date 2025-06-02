@@ -15,78 +15,79 @@
     }
   ],
   "hero": {
-    "title": "Care of",
-    "sub_title": "Your Body",
-    "scroll": "Scroll"
+    "title": "ROBINS",
+    "sub_title": "tattoo",
+    "visit_studio": "Visit Studio"
   },
   "about": {
-    "title": "Welcome to Anny Spa",
-    "desc": "Everybody is looking for places where to relax and get more energy.In our wellness center silence, energy, beauty and vitality meet. The treatments we offer will refresh both your body and soul. We'll be glad to welcome you and recommend our facilities and services."
+    "title": "About Us",
+    "desc": "Robins Tattoo Studio, established in 2019, stands as one of the best tattoo studios in Ahmedabad, with a professional tattoo artist who designs your ideas with the utmost precision. We believe that tattoos express what words often cannot. That's why we focus on capturing your story, expression, beliefs, and essence to ink down your story beautifully. Our award-winning team of tattoo artists excels in crafting personalized, creative tattoos that resonate deeply with our clients. Our success stems from understanding our client's desires and delivering exceptional results, ensuring every artwork leaves a lasting smile. Passion drives our artists to create pieces that truly resonate, ensuring each client leaves with a tattoo they love. This commitment to excellence defines our journey, making Robins Tattoo Studio a destination for those seeking not just a tattoo but an artistic experience crafted with care and expertise."
   },
   "service": {
     "title": "Services",
-    "description": "Relaxation of bodu and mind in which time does not exist",
+    "description": "Robins Tattoo Studio in Ahmedabad believes tattoos are a profound expression of life, personality, and individuality. We are dedicated to guiding you through this transformative journey, ensuring your satisfaction and happiness. Our commitment lies in creating custom tattoo designs that resonate with your unique vision, making them a permanent part of your identity. At Robins Tattoo Studio, we prioritize your preferences and provide meticulous attention to detail. We stand out for our bespoke designs and exceptional service. Trust us to bring your ideas to life with skill and passion. Let Robins Tattoo Studio be your choice for a truly personalized tattoo experience.",
     "services": [
       {
-        "title": "Hydro Therapy",
+        "title": "Tatto Design",
         "image": "/hydro.png"
       },
       {
-        "title": "Sauna Rooms",
+        "title": "Tattoo Redesign",
+        "image": "/hydro.png"
+      },
+      {
+        "title": "coverup  Tattoo",
         "image": "/sauna.png"
       },
       {
-        "title": "Massage",
+        "title": "Piercings",
         "image": "/massage.png"
       },
       {
-        "title": "Reflexology",
+        "title": "Micropigmentation",
         "image": "/reflex.png"
       }
     ]
   },
   "aroma": {
-    "title": "Aroma Therapy",
-    "desc": "Give yourself the ultimate home spa experience with a type of therapy that uses gentle pressure on specific points along your feet (and possibly on your hands or ears as well) to help you feel better. The theory is that this eases stress, and that helps your body work better.",
-    "learn": "Learn more"
+    "title": "Meet our Artist",
+    "name": "Josh Inkstar",
+    "subtitle": "Professional Tattoo Artist | Experience 10 Years",
+    "desc": "Introducing Josh Inkstar, a talented tattoo artist with 10 years of experience. Josh Inkstar is known for creating unique and meaningful tattoos, blending technical skills with artistic talent. Specializing in various tattoo styles, Josh Inkstar uses high-quality materials to ensure a safe and satisfying experience. With a keen eye for detail and a passion for art, Josh Inkstar transforms clients' ideas into beautiful body art, making each tattoo a true reflection of personal stories and individuality. Trust Josh Inkstar to bring your vision to life with exceptional artistry.",
+    "gallery": "View Gallery"
   },
-  "reviews": {
-    "title": "Review from our clients",
-    "reviews": [
-      {
-        "id": 1,
-        "title": "Amazing place!",
-        "review": "The service was impeccable and the staff was the best we've met. Thank you from the bottom.",
-        "category": "Sound Rooms",
-        "profileImage": "/portrait.png"
-      },
-      {
-        "id": 2,
-        "title": "BEST massage",
-        "review": "The BEST massage I have ever had, every time I call Rela Spa to my private venue for body work!",
-        "category": "Messages",
-        "profileImage": "/portrait.png"
-      },
-      {
-        "id": 3,
-        "title": "Wonderful vacation",
-        "review": "Thank you! We have had a wonderful vacation at your heavenly resort. You are precious.",
-        "category": "Reflexology",
-        "profileImage": "/portrait.png"
-      }
+  "gallery": {
+    "title": "Our Work Gallery",
+    "see": "See more",
+    "images": [
+      "/gallery1.jpg",
+      "/gallery2.jpg",
+      "/gallery3.jpg",
+      "/gallery4.jpg",
+      "/gallery5.jpg",
+      "/gallery6.jpg",
+      "/gallery7.jpg",
+      "/gallery8.jpg"
     ]
   },
   "contact": {
-    "title": "Contact Us",
     "contact": {
-      "visit": "Visit Us",
-      "add1": "123 Wellness Street",
-      "add2": "Spa City, SC 12345",
-      "get_intouch": "Get In Touch",
-      "phone": "Phone: (123) 456-7890",
-      "email": "Email: info@annyspa.com"
+      "title": "Contact",
+      "phone": "+91 3993 939 7393",
+      "email": "robbins@hotmail.com"
     },
-    "location": "We operate across the Americas."
+    "location": {
+      "title": "Location",
+      "add1": "Badakdev",
+      "add2": "Hollasae,  738 hl",
+      "add3": "Gujarat - 830840"
+    },
+    "opening": {
+      "title": "Hours of Operation",
+      "sub": "We are open",
+      "days": "MONDAY To SUNDAY",
+      "time": "11am - 8pm"
+    }
   },
   "footer": {
     "title": "Anny Spa",
@@ -138,6 +139,50 @@
         }
       ]
     },
-    "all_rights": "Anny Spa. All rights reserved."
+    "all_rights": "Robbins Tattoo. All rights reserved."
+  },
+  "whyus": {
+    "title": "Why We Are Better Than Others",
+    "reasons": [
+      {
+        "title": "Expert Inkster",
+        "desc": "Our expert tattoo artists possess strong mastery not only in various tattoo styles but also in piercing, tattoo removal, tattoo cover-ups, and more. We ensure an experience that lasts lifetime."
+      },
+      {
+        "title": "Clean Practices",
+        "desc": "We strictly follow 100% hygiene practices, using top-quality, sterile equipment and disposable needles. Our studio environment is clean, welcoming, and well-kept, ensuring your confidence in every precaution taken"
+      },
+      {
+        "title": "Custom Artistry",
+        "desc": "We believe in your story and are here to translate it into art. Whether you have a clear idea or need guidance in tattoos, piercings, or more, our artists turn your story into stunning realities."
+      }
+    ]
+  },
+
+  "testimonial": {
+    "title": "OUR CUSTOMER SAYS",
+    "testimonies": [
+      {
+        "id": 1,
+        "text": "This was my first tattoo and I couldn't have asked for a better experience. The design turned out even better than I imagined, and the atmosphere was super comfortable. Thank you for making it memorable!",
+        "name": "Anandbabu Shetty",
+        "role": "Marketing Manager at Shree Electronics",
+        "image": "/portrait.png"
+      },
+      {
+        "id": 2,
+        "text": "Absolutely love my new ink! The precision and detail in the artwork are insane. I’ve gotten so many compliments already. Super professional, clean studio, and amazing vibes throughout the session.",
+        "name": "Jane Doe",
+        "role": "CEO at Acme Corp",
+        "image": "/portrait.png"
+      },
+      {
+        "id": 3,
+        "text": "I’ve been tattooed in a few places, but this was hands down the best experience. The artist really listened to my idea and brought it to life better than I could’ve imagined. Can’t wait for my next one!",
+        "name": "John Smith",
+        "role": "CTO at Example Inc.",
+        "image": "/portrait.png"
+      }
+    ]
   }
 }

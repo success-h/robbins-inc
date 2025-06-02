@@ -14,82 +14,83 @@
     }
   ],
   "hero": {
-    "title": "Cuidado de",
-    "sub_title": "Tu Cuerpo",
-    "scroll": "Desliza"
+    "title": "ROBINS",
+    "sub_title": "tatuaje",
+    "visit_studio": "Visitar Estudio"
   },
   "about": {
-    "title": "Bienvenido a Anny Spa",
-    "desc": "Todos buscan lugares donde relajarse y recargar energías. En nuestro centro de bienestar se encuentran el silencio, la energía, la belleza y la vitalidad. Los tratamientos que ofrecemos renovarán tanto tu cuerpo como tu alma. Estaremos encantados de recibirte y recomendarte nuestras instalaciones y servicios."
+    "title": "Sobre Nosotros",
+    "desc": "Robins Tattoo Studio, fundado en 2019, se ha consolidado como uno de los mejores estudios de tatuajes en Ahmedabad, con un artista profesional que diseña tus ideas con la máxima precisión. Creemos que los tatuajes expresan lo que a veces las palabras no pueden. Por eso nos enfocamos en capturar tu historia, expresión, creencias y esencia para plasmar tu relato de manera hermosa. Nuestro galardonado equipo de artistas del tatuaje se destaca en crear tatuajes personalizados y creativos que resuenan profundamente con nuestros clientes. Nuestro éxito proviene de comprender los deseos de nuestros clientes y entregar resultados excepcionales, asegurando que cada obra de arte deje una sonrisa duradera. La pasión impulsa a nuestros artistas a crear piezas que verdaderamente resuenan, garantizando que cada cliente se lleve un tatuaje que ame. Este compromiso con la excelencia define nuestro trayecto, convirtiendo a Robins Tattoo Studio en un destino para quienes buscan no solo un tatuaje, sino una experiencia artística creada con cuidado y experiencia."
   },
   "service": {
     "title": "Servicios",
-    "description": "Relajación del cuerpo y la mente en la que el tiempo no existe",
+    "description": "Robins Tattoo Studio en Ahmedabad cree que los tatuajes son una profunda expresión de la vida, la personalidad y la individualidad. Nos dedicamos a guiarte en este viaje transformador, asegurando tu satisfacción y felicidad. Nuestro compromiso radica en crear diseños de tatuajes personalizados que resuenen con tu visión única, haciéndolos una parte permanente de tu identidad. En Robins Tattoo Studio, priorizamos tus preferencias y prestamos atención meticulosa a cada detalle. Nos destacamos por nuestros diseños a medida y un servicio excepcional. Confía en nosotros para dar vida a tus ideas con habilidad y pasión. Deja que Robins Tattoo Studio sea tu opción para una experiencia de tatuaje verdaderamente personalizada.",
     "services": [
       {
-        "title": "Hidroterapia",
+        "title": "Diseño de Tatuaje",
         "image": "/hydro.png"
       },
       {
-        "title": "Salas de Sauna",
+        "title": "Rediseño de Tatuaje",
+        "image": "/hydro.png"
+      },
+      {
+        "title": "Tatuaje de Cubrimiento",
         "image": "/sauna.png"
       },
       {
-        "title": "Masaje",
+        "title": "Piercings",
         "image": "/massage.png"
       },
       {
-        "title": "Reflexología",
+        "title": "Micropigmentación",
         "image": "/reflex.png"
       }
     ]
   },
   "aroma": {
-    "title": "Aromaterapia",
-    "desc": "Date la mejor experiencia de spa en casa con un tipo de terapia que utiliza presión suave en puntos específicos de los pies (y posiblemente también en las manos o las orejas) para ayudarte a sentirte mejor. La teoría es que esto alivia el estrés, lo que ayuda a que tu cuerpo funcione mejor.",
-    "learn": "Aprende más"
+    "title": "Conoce a Nuestro Artista",
+    "name": "Josh Inkstar",
+    "subtitle": "Artista de Tatuajes Profesional | 10 años de experiencia",
+    "desc": "Te presentamos a Josh Inkstar, un talentoso artista del tatuaje con 10 años de experiencia. Josh Inkstar es conocido por crear tatuajes únicos y significativos, combinando habilidades técnicas con talento artístico. Especializado en varios estilos de tatuajes, utiliza materiales de alta calidad para garantizar una experiencia segura y satisfactoria. Con un ojo atento al detalle y una pasión por el arte, Josh Inkstar transforma las ideas de los clientes en hermosas obras de arte corporal, convirtiendo cada tatuaje en una verdadera manifestación de historias personales e individualidad. Confía en Josh Inkstar para dar vida a tu visión con una artesanía excepcional.",
+    "gallery": "Ver Galería"
   },
-  "reviews": {
-    "title": "Opiniones de nuestros clientes",
-    "reviews": [
-      {
-        "id": 1,
-        "title": "¡Lugar increíble!",
-        "review": "El servicio fue impecable y el personal el mejor que hemos conocido. Gracias de corazón.",
-        "category": "Salas de Sonido",
-        "profileImage": "/portrait.png"
-      },
-      {
-        "id": 2,
-        "title": "El MEJOR masaje",
-        "review": "¡El MEJOR masaje que he tenido! Siempre llamo a Rela Spa a mi lugar privado para masajes corporales.",
-        "category": "Masajes",
-        "profileImage": "/portrait.png"
-      },
-      {
-        "id": 3,
-        "title": "Vacaciones maravillosas",
-        "review": "¡Gracias! Hemos tenido unas vacaciones maravillosas en su paradisíaco resort. Son invaluables.",
-        "category": "Reflexología",
-        "profileImage": "/portrait.png"
-      }
+  "gallery": {
+    "title": "Nuestra Galería de Trabajos",
+    "see": "Ver Más",
+    "images": [
+      "/rose.jpg",
+      "/rose.jpg",
+      "/rose.jpg",
+      "/rose.jpg",
+      "/rose.jpg",
+      "/rose.jpg",
+      "/rose.jpg",
+      "/rose.jpg"
     ]
   },
   "contact": {
-    "title": "Contáctanos",
     "contact": {
-      "visit": "Visítanos",
-      "add1": "123 Calle Bienestar",
-      "add2": "Ciudad Spa, SC 12345",
-      "get_intouch": "Ponte en contacto",
-      "phone": "Teléfono: (123) 456-7890",
-      "email": "Correo: info@annyspa.com"
+      "title": "Contacto",
+      "phone": "+91 3993 939 7393",
+      "email": "robbins@hotmail.com"
     },
-    "location": "Operamos en toda América."
+    "location": {
+      "title": "Ubicación",
+      "add1": "Badakdev",
+      "add2": "Hollasae,  738 hl",
+      "add3": "Gujarat - 830840"
+    },
+    "opening": {
+      "title": "Horario de Atención",
+      "sub": "Estamos abiertos",
+      "days": "LUNES a DOMINGO",
+      "time": "11am - 8pm"
+    }
   },
   "footer": {
     "title": "Anny Spa",
-    "desc": "Cuida tu cuerpo y alma",
+    "desc": "Cuidado para tu cuerpo y alma",
     "services": {
       "title": "Servicios",
       "hydro": "Hidroterapia",
@@ -98,7 +99,7 @@
       "reflex": "Reflexología"
     },
     "company": {
-      "title": "Compañía",
+      "title": "Empresa",
       "navigation": [
         {
           "name": "Sobre Nosotros",
@@ -115,7 +116,7 @@
       ]
     },
     "connect": {
-      "title": "Conéctate",
+      "title": "Conectar",
       "navigation": [
         {
           "facebook": "Facebook",
@@ -130,11 +131,54 @@
           "link": "www.x.com"
         },
         {
-          "name": "Youtube",
+          "name": "YouTube",
           "link": "www.youtube.com"
         }
       ]
     },
     "all_rights": "Anny Spa. Todos los derechos reservados."
+  },
+  "whyus": {
+    "title": "Por Qué Somos Mejores Que Otros",
+    "reasons": [
+      {
+        "title": "Inkster Experto",
+        "desc": "Nuestros expertos artistas del tatuaje dominan no solo diversos estilos de tatuajes sino también perforaciones, eliminación de tatuajes, cover-ups y más. Aseguramos una experiencia inolvidable."
+      },
+      {
+        "title": "Prácticas Limpias",
+        "desc": "Seguimos estrictamente prácticas de higiene al 100% usando equipo de alta calidad, material estéril y agujas desechables. Nuestro estudio es limpio, acogedor y bien mantenido, asegurando tu confianza en cada medida de precaución."
+      },
+      {
+        "title": "Artesanía Personalizada",
+        "desc": "Creemos en tu historia y estamos aquí para convertirla en arte. Ya sea que tengas una idea clara o necesites orientación en tatuajes, perforaciones o más, nuestros artistas transforman tu historia en realidades asombrosas."
+      }
+    ]
+  },
+  "testimonial": {
+    "title": "LO QUE DICEN NUESTROS CLIENTES",
+    "testimonies": [
+      {
+        "id": 1,
+        "text": "Este fue mi primer tatuaje y no podría haber pedido una mejor experiencia. El diseño quedó incluso mejor de lo que imaginaba y el ambiente fue súper cómodo. ¡Gracias por hacer de esto algo inolvidable!",
+        "name": "Anandbabu Shetty",
+        "role": "Gerente de Marketing en Shree Electronics",
+        "image": "/portrait.png"
+      },
+      {
+        "id": 2,
+        "text": "¡Me encanta mi nuevo tatuaje! La precisión y el detalle en el arte son increíbles. Ya he recibido muchos elogios. Estudio súper profesional, limpio y con una vibra genial durante toda la sesión.",
+        "name": "Jane Doe",
+        "role": "CEO de Acme Corp",
+        "image": "/portrait.png"
+      },
+      {
+        "id": 3,
+        "text": "Me he tatuado en varios lugares, pero esta fue, sin duda, la mejor experiencia. El artista realmente entendió mi idea y la plasmó mejor de lo que imaginaba. ¡Ya quiero hacerme el siguiente!",
+        "name": "John Smith",
+        "role": "CTO de Example Inc.",
+        "image": "/portrait.png"
+      }
+    ]
   }
 }

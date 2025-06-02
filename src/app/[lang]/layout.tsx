@@ -1,15 +1,9 @@
 import type { Metadata } from 'next';
-import { Playfair_Display, Poppins } from 'next/font/google';
+import { Lexend } from 'next/font/google';
 import './globals.css';
 import { LanguageProvider } from '@/context/LanguageContext';
 
-const geistMono = Playfair_Display({
-  variable: '--font-geist-mono',
-  subsets: ['latin'],
-  weight: ['400'],
-});
-
-const poppins = Poppins({
+const poppins = Lexend({
   variable: '--font-geist-sans',
   subsets: ['latin'],
   weight: ['400'],
@@ -30,11 +24,7 @@ export default async function RootLayout({
   return (
     <html lang={(await params).lang}>
       <LanguageProvider>
-        <body
-          className={`${geistMono.className} ${poppins.className}  antialiased`}
-        >
-          {children}
-        </body>
+        <body className={`${poppins.className}`}>{children}</body>
       </LanguageProvider>
     </html>
   );

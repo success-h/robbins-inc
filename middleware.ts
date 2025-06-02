@@ -5,7 +5,7 @@ import { NextRequest, NextResponse } from 'next/server';
 const headers = { 'accept-language': 'es,es;q=0.5' };
 const languages = new Negotiator({ headers }).languages();
 const locales = ['en', 'es', 'nl'];
-const defaultLocale = 'nl';
+const defaultLocale = 'en';
 
 const locale = match(languages, locales, defaultLocale);
 

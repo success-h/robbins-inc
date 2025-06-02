@@ -9,83 +9,84 @@
       "link": "#services"
     },
     {
-      "name": "Contacteer Ons",
+      "name": "Contact",
       "link": "#contact"
     }
   ],
   "hero": {
-    "title": "Zorg voor",
-    "sub_title": "Je Lichaam",
-    "scroll": "Scroll"
+    "title": "ROBINS",
+    "sub_title": "tatoeage",
+    "visit_studio": "Bezoek Studio"
   },
   "about": {
-    "title": "Welkom bij Anny Spa",
-    "desc": "Iedereen is op zoek naar plekken om te ontspannen en nieuwe energie op te doen. In ons wellnesscentrum komen stilte, energie, schoonheid en vitaliteit samen. De behandelingen die wij aanbieden verfrissen zowel je lichaam als je geest. We verwelkomen je graag en bevelen onze faciliteiten en diensten aan."
+    "title": "Over Ons",
+    "desc": "Robins Tattoo Studio, opgericht in 2019, staat bekend als een van de beste tattoo­studio’s in Ahmedabad, met een professionele tatoeëerder die jouw ideeën met de grootste precisie ontwerpt. Wij geloven dat tatoeages uitdrukken wat woorden vaak niet kunnen. Daarom richten we ons op het vastleggen van jouw verhaal, expressie, overtuigingen en essentie om je verhaal op een prachtige manier te vereeuwigen. Ons bekroonde team van tatoeëerders blinkt uit in het creëren van gepersonaliseerde, creatieve tatoeages die diep resoneren met onze klanten. Ons succes komt voort uit het begrijpen van de wensen van onze klanten en het leveren van uitzonderlijke resultaten, zodat elk kunstwerk een blijvende glimlach achterlaat. Passie drijft onze artiesten om stukken te creëren die echt resoneren, zodat elke klant vertrekt met een tatoeage waar hij of zij verliefd op is. Deze toewijding aan uitmuntendheid definieert onze reis en maakt Robins Tattoo Studio tot een bestemming voor wie niet alleen een tatoeage wil, maar een artistieke ervaring, met zorg en expertise gemaakt."
   },
   "service": {
     "title": "Diensten",
-    "description": "Ontspanning van lichaam en geest waarbij tijd niet bestaat",
+    "description": "Robins Tattoo Studio in Ahmedabad gelooft dat tatoeages een diepgaande uitdrukking zijn van leven, persoonlijkheid en individualiteit. We zijn toegewijd om je door deze transformerende reis te begeleiden en zorgen ervoor dat je tevredenheid en geluk vooropstaan. Onze inzet ligt in het creëren van op maat gemaakte tatoeage­ontwerpen die aansluiten bij jouw unieke visie, zodat ze een blijvend deel van je identiteit worden. Bij Robins Tattoo Studio geven we prioriteit aan jouw voorkeuren en schenken we uiterste aandacht aan elk detail. Wij onderscheiden ons door onze op maat gemaakte ontwerpen en uitzonderlijke service. Vertrouw ons om jouw ideeën tot leven te brengen met vaardigheid en passie. Laat Robins Tattoo Studio je keuze zijn voor een werkelijk gepersonaliseerde tatoeage­ervaring.",
     "services": [
       {
-        "title": "Hydrotherapie",
+        "title": "Tatoeage Ontwerp",
         "image": "/hydro.png"
       },
       {
-        "title": "Saunaruimtes",
+        "title": "Tatoeage Herontwerp",
+        "image": "/hydro.png"
+      },
+      {
+        "title": "Cover-up Tatoeage",
         "image": "/sauna.png"
       },
       {
-        "title": "Massage",
+        "title": "Piercings",
         "image": "/massage.png"
       },
       {
-        "title": "Reflexologie",
+        "title": "Micropigmentatie",
         "image": "/reflex.png"
       }
     ]
   },
   "aroma": {
-    "title": "Aromatherapie",
-    "desc": "Geef jezelf de ultieme spa-ervaring thuis met een therapievorm die zachte druk gebruikt op specifieke punten van je voeten (en mogelijk ook je handen of oren) om je beter te laten voelen. De theorie is dat dit stress vermindert, waardoor je lichaam beter functioneert.",
-    "learn": "Lees meer"
+    "title": "Maak kennis met onze Artiest",
+    "name": "Josh Inkstar",
+    "subtitle": "Professionele tatoeëerder | 10 jaar ervaring",
+    "desc": "Maak kennis met Josh Inkstar, een getalenteerde tatoeëerder met 10 jaar ervaring. Josh Inkstar staat bekend om het creëren van unieke en betekenisvolle tatoeages, waarbij technische vaardigheden naadloos samengaan met artistiek talent. Gespecialiseerd in diverse tatoeëerstijlen, gebruikt Josh Inkstar materialen van hoge kwaliteit om een veilige en bevredigende ervaring te garanderen. Met een scherp oog voor detail en een passie voor kunst, transformeert Josh Inkstar de ideeën van klanten in prachtige lichaamskunst, waardoor elke tatoeage een ware weerspiegeling wordt van iemands persoonlijke verhaal en individualiteit. Vertrouw op Josh Inkstar om jouw visie tot leven te brengen met uitzonderlijke kunstzinnigheid.",
+    "gallery": "Bekijk Galerie"
   },
-  "reviews": {
-    "title": "Beoordelingen van onze klanten",
-    "reviews": [
-      {
-        "id": 1,
-        "title": "Geweldige plek!",
-        "review": "De service was onberispelijk en het personeel was het beste dat we ooit hebben ontmoet. Dank jullie wel.",
-        "category": "Geluidskamers",
-        "profileImage": "/portrait.png"
-      },
-      {
-        "id": 2,
-        "title": "BESTE massage",
-        "review": "De BESTE massage die ik ooit heb gehad. Elke keer dat ik bel, komt Rela Spa naar mijn privélocatie voor lichaamswerk!",
-        "category": "Massages",
-        "profileImage": "/portrait.png"
-      },
-      {
-        "id": 3,
-        "title": "Heerlijke vakantie",
-        "review": "Dank jullie wel! We hebben een heerlijke vakantie gehad in jullie hemelse resort. Jullie zijn kostbaar.",
-        "category": "Reflexologie",
-        "profileImage": "/portrait.png"
-      }
+  "gallery": {
+    "title": "Onze Werkgalerij",
+    "see": "Bekijk Meer",
+    "images": [
+      "/rose.jpg",
+      "/rose.jpg",
+      "/rose.jpg",
+      "/rose.jpg",
+      "/rose.jpg",
+      "/rose.jpg",
+      "/rose.jpg",
+      "/rose.jpg"
     ]
   },
   "contact": {
-    "title": "Contacteer Ons",
     "contact": {
-      "visit": "Bezoek Ons",
-      "add1": "123 Wellnessstraat",
-      "add2": "Spa Stad, SC 12345",
-      "get_intouch": "Neem Contact Op",
-      "phone": "Telefoon: (123) 456-7890",
-      "email": "E-mail: info@annyspa.com"
+      "title": "Contact",
+      "phone": "+91 3993 939 7393",
+      "email": "robbins@hotmail.com"
     },
-    "location": "We zijn actief in heel Amerika."
+    "location": {
+      "title": "Locatie",
+      "add1": "Badakdev",
+      "add2": "Hollasae,  738 hl",
+      "add3": "Gujarat - 830840"
+    },
+    "opening": {
+      "title": "Openingstijden",
+      "sub": "We zijn geopend",
+      "days": "MAANDAG tot ZONDAG",
+      "time": "11am - 8pm"
+    }
   },
   "footer": {
     "title": "Anny Spa",
@@ -93,7 +94,7 @@
     "services": {
       "title": "Diensten",
       "hydro": "Hydrotherapie",
-      "sauna": "Saunaruimtes",
+      "sauna": "Sauna’s",
       "massage": "Massages",
       "reflex": "Reflexologie"
     },
@@ -109,7 +110,7 @@
           "link": "#services"
         },
         {
-          "name": "Contacteer Ons",
+          "name": "Contact",
           "link": "#contact"
         }
       ]
@@ -136,5 +137,48 @@
       ]
     },
     "all_rights": "Anny Spa. Alle rechten voorbehouden."
+  },
+  "whyus": {
+    "title": "Waarom Wij Beter Zijn Dan Anderen",
+    "reasons": [
+      {
+        "title": "Ervaren Inkster",
+        "desc": "Onze ervaren tatoeëerders beheersen niet alleen diverse tatoeëerstijlen, maar ook piercings, tatoeageverwijdering, cover-ups en meer. We zorgen voor een ervaring die een leven lang meegaat."
+      },
+      {
+        "title": "Hygiënische Werkwijze",
+        "desc": "We volgen strikt 100% hygiënepraktijken met apparatuur van hoge kwaliteit, steriele materialen en wegwerpinstrumenten. Onze studio is schoon, gastvrij en goed onderhouden, waardoor je vertrouwen hebt in elke genomen voorzorgsmaatregel."
+      },
+      {
+        "title": "Op Maat Gemaakte Kunst",
+        "desc": "Wij geloven in jouw verhaal en vertalen het naar kunst. Of je nu een duidelijk idee hebt of begeleiding nodig hebt voor tatoeages, piercings of meer, onze artiesten zetten jouw verhaal om in prachtige realisaties."
+      }
+    ]
+  },
+  "testimonial": {
+    "title": "WAT ONZE KLANTEN ZEGGEN",
+    "testimonies": [
+      {
+        "id": 1,
+        "text": "Dit was mijn eerste tatoeage en ik had me geen betere ervaring kunnen wensen. Het ontwerp was nog beter dan ik me had voorgesteld en de sfeer was super comfortabel. Bedankt voor deze memorabele ervaring!",
+        "name": "Anandbabu Shetty",
+        "role": "Marketingmanager bij Shree Electronics",
+        "image": "/portrait.png"
+      },
+      {
+        "id": 2,
+        "text": "Ik ben helemaal weg van mijn nieuwe tattoo! De precisie en het detail in het kunstwerk zijn ongelofelijk. Ik heb al zoveel complimenten gekregen. Super professioneel, schoon atelier en een geweldige sfeer tijdens de sessie.",
+        "name": "Jane Doe",
+        "role": "CEO bij Acme Corp",
+        "image": "/portrait.png"
+      },
+      {
+        "id": 3,
+        "text": "Ik ben op meerdere plekken getatoeëerd, maar dit was absoluut de beste ervaring. De artiest luisterde echt naar mijn idee en bracht het beter tot leven dan ik had kunnen dromen. Ik kijk al uit naar mijn volgende!",
+        "name": "John Smith",
+        "role": "CTO bij Example Inc.",
+        "image": "/portrait.png"
+      }
+    ]
   }
 }
