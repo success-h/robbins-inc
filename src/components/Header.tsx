@@ -85,7 +85,9 @@ export default function Header({ dict }: SectionProps) {
                 <Button
                   onClick={() => handleLanguageChange('en')}
                   className={`${
-                    language === 'en' ? 'bg-emerald-500 px-8 py-2' : 'bg-black'
+                    language === 'en'
+                      ? 'bg-emerald-500 px-8 py-2'
+                      : 'bg-white text-black'
                   }`}
                   variant="outline"
                 >
